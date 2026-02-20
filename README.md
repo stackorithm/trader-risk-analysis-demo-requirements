@@ -1,6 +1,6 @@
-# Prop Firm Trading Platform - Demo Data Requirements
+# Trader Risk Analysis - Demo Data Requirements
 
-This repository defines the data format specifications required for demonstrating the prop firm trading platform with real trader historical data. The data is used as input for models that detect prohibited trading behaviors.
+This repository defines the data format specifications required for demonstrating the trader risk analysis models with real trader historical data. The data is used as input for models that detect prohibited trading behaviors.
 
 ---
 
@@ -19,7 +19,7 @@ This repository defines the data format specifications required for demonstratin
 
 The demo data should contain a list of traders, where each trader includes their complete historical trading activity. This data is analyzed by models designed to detect prohibited trading behaviors described in our documentation [here](docs/prohibited-behaviors.md).
 
-## Supported Platforms
+## Current Supported Platforms
 
 | Platform         | Documentation                                                    | Example Data                                                        |
 | ---------------- | ---------------------------------------------------------------- | ------------------------------------------------------------------- |
@@ -33,7 +33,7 @@ The demo data should contain a list of traders, where each trader includes their
 
 ## Directory Structure
 
-\`\`\`
+```
 demo/
 ├── docs/
 │ └── prohibited-behaviors.md # Behavior detection guide
@@ -54,7 +54,7 @@ demo/
 │ └──── examples/
 │ └────── sample-data.json
 └── README.md # This file
-\`\`\`
+```
 
 ---
 
@@ -117,25 +117,4 @@ For questions regarding this data format, to schedule a demonstration, or if you
 
 - **Document Version:** 1.0
 - **Last Updated:** February 2026
-
----
-
-## License & Copyright
-
-**© 2026 Stackorithm LLC. All rights reserved.**
-
-This documentation is proprietary and confidential. Use is permitted solely for evaluation and integration with Stackorithm's behavioral risk detection platform.
-
-**License Terms:** See [LICENSE](LICENSE) for complete terms, including:
-
-- Permitted uses (viewing, internal evaluation, data preparation)
-- Restrictions (no redistribution, modification, or commercial exploitation)
-- Confidentiality obligations
-- Disclaimers and limitations
-
-**Summary:**
-
-- ✅ Allowed: Internal use for demo/integration with Stackorithm
-- ❌ Not allowed: Redistribution, modification, or public disclosure without written consent
-
-For license inquiries or permissions beyond the stated terms, contact: info@stackorithm.co
+- **Copyright:** Stackorithm LLC All rights reserved.
