@@ -1,0 +1,79 @@
+{
+  "traders": [
+    {
+      "login": 93940,
+      "deals": [
+        {
+          "time": 1722556800,
+          "deal_id": 102345,
+          "position_id": 100234,
+          "entry": 0,
+          "action": 0,
+          "profit": 0.0,
+          "commission": -2.5,
+          "storage": 0.0,
+          "fee": 0.0,
+          "symbol": "EURUSD",
+          "volume": 1.02,
+          "contractsize": 100000.0,
+          "price": 1.0892,
+          "pricesl": 0.0,
+          "pricetp": 1.095,
+          "comment": "Opening buy position",
+          "reason": 0
+        },
+        {
+          "time": 1722570000,
+          "deal_id": 102346,
+          "position_id": 100234,
+          "entry": 1,
+          "action": 1,
+          "profit": 330.0,
+          "commission": -2.5,
+          "storage": -0.5,
+          "fee": 0.0,
+          "symbol": "EURUSD",
+          "volume": 1.02,
+          "contractsize": 100000.0,
+          "price": 1.0925,
+          "pricesl": 0.0,
+          "pricetp": 0.0,
+          "comment": "Closing sell position",
+          "reason": 0
+        }
+      ],
+      "orders": [
+        {
+          "order_id": 100234,
+          "positionid": 100234,
+          "symbol": "EURUSD",
+          "type": 0,
+          "activationtime": 0,
+          "volumeinitial": 102000,
+          "state": 4,
+          "timesetupmsc": 1722556800000,
+          "timedonemsc": 1722556860000,
+          "priceorder": 0.0,
+          "pricetrigger": 0.0,
+          "reason": 0,
+          "comment": "Market buy order"
+        },
+        {
+          "order_id": 100235,
+          "positionid": 100234,
+          "symbol": "EURUSD",
+          "type": 1,
+          "activationtime": 0,
+          "volumeinitial": 102000,
+          "state": 4,
+          "timesetupmsc": 1722570000000,
+          "timedonemsc": 1722570060000,
+          "priceorder": 0.0,
+          "pricetrigger": 0.0,
+          "reason": 0,
+          "comment": "Market sell order"
+        }
+      ]
+    }
+  ]
+}

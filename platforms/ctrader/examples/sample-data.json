@@ -1,0 +1,101 @@
+{
+  "traders": [
+    {
+      "ctidTraderAccountId": 12345678,
+      "balance": 1250000000,
+      "deals": [
+        {
+          "dealId": 5001,
+          "orderId": 10001,
+          "positionId": 8001,
+          "volume": 1000,
+          "filledVolume": 1000,
+          "symbolId": 1,
+          "createTimestamp": 1722556800000,
+          "executionTimestamp": 1722556860000,
+          "executionPrice": 1.0892,
+          "tradeSide": 1,
+          "dealStatus": 2,
+          "commission": -2500000,
+          "marginRate": 0.02,
+          "moneyDigits": 8,
+          "label": "EURUSD-LONG",
+          "comment": "Opening position"
+        },
+        {
+          "dealId": 5002,
+          "orderId": 10002,
+          "positionId": 8001,
+          "volume": 1000,
+          "filledVolume": 1000,
+          "symbolId": 1,
+          "createTimestamp": 1722570000000,
+          "executionTimestamp": 1722570060000,
+          "executionPrice": 1.0925,
+          "tradeSide": 2,
+          "dealStatus": 2,
+          "commission": -2500000,
+          "marginRate": 0.02,
+          "moneyDigits": 8,
+          "label": "EURUSD-LONG",
+          "comment": "Closing position",
+          "closePositionDetail": {
+            "entryPrice": 1.0892,
+            "grossProfit": 33000000,
+            "swap": -50000,
+            "commission": -5000000,
+            "balance": 12502750000,
+            "quoteToDepositConversionRate": 1.0,
+            "closedVolume": 1000,
+            "balanceVersion": 2,
+            "moneyDigits": 8,
+            "pnlConversionFee": 0
+          }
+        }
+      ],
+      "orders": [
+        {
+          "orderId": 10001,
+          "tradeData": {
+            "symbolId": 1,
+            "volume": 1000,
+            "tradeSide": 1,
+            "label": "EURUSD-LONG",
+            "openTimestamp": 1722556800000
+          },
+          "orderType": 1,
+          "orderStatus": 2,
+          "positionId": 8001,
+          "executedVolume": 1000,
+          "executionPrice": 1.0892,
+          "utcLastUpdateTimestamp": 1722556860000
+        },
+        {
+          "orderId": 10002,
+          "tradeData": {
+            "symbolId": 1,
+            "volume": 1000,
+            "tradeSide": 2,
+            "label": "EURUSD-LONG",
+            "openTimestamp": 1722570000000
+          },
+          "orderType": 1,
+          "orderStatus": 2,
+          "positionId": 8001,
+          "executedVolume": 1000,
+          "executionPrice": 1.0925,
+          "utcLastUpdateTimestamp": 1722570060000,
+          "closingOrder": true
+        }
+      ],
+      "symbols": [
+        {
+          "symbolId": 1,
+          "symbolName": "EURUSD",
+          "digits": 5,
+          "pipPosition": 4
+        }
+      ]
+    }
+  ]
+}

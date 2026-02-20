@@ -1,0 +1,173 @@
+# PROPRIETARY LICENSE AGREEMENT
+
+**Stackorithm Demo Data Requirements Documentation**
+
+**Version:** 1.0
+**Effective Date:** February 20, 2026
+**Licensor:** Stackorithm LLC
+
+---
+
+## Preamble
+
+This license agreement ("Agreement") is a legal agreement between you ("Licensee") and Stackorithm LLC ("Licensor"). This Agreement governs your use of the Stackorithm Demo Data Requirements documentation and associated example files (collectively, the "Documentation").
+
+By accessing, viewing, or using the Documentation, you agree to be bound by the terms of this Agreement. If you do not agree to these terms, do not access or use the Documentation.
+
+---
+
+## Grant of License
+
+### Permitted Uses
+
+Subject to the terms and conditions of this Agreement, Licensor grants Licensee a **non-exclusive, non-transferable, non-sublicensable, revocable** license to:
+
+1. **View and Access** - View, read, and access the Documentation for the sole purpose of understanding data format requirements for integration with Stackorithm's behavioral risk detection platform.
+
+2. **Internal Use** - Use the Documentation internally within Licensee's organization to prepare and format trading data for demonstration or evaluation purposes with Stackorithm.
+
+3. **Reference** - Refer to the specifications and examples contained herein to prepare data for submission to Stackorithm for demonstration, testing, or evaluation purposes.
+
+### Use Cases
+
+The Documentation is intended for:
+- Proprietary trading firms ("prop firms") evaluating Stackorithm's behavioral risk detection platform
+- Potential customers preparing data for pilot demonstrations
+- Integration partners implementing data export functionality
+
+---
+
+## Restrictions
+
+Licensee shall NOT, without the prior written consent of Licensor:
+
+1. **Redistribute** - Distribute, publish, transmit, display, or otherwise make the Documentation available to any third party, except as necessary for internal evaluation purposes.
+
+2. **Modify** - Modify, adapt, translate, or create derivative works based on the Documentation.
+
+3. **Commercial Exploitation** - Use the Documentation for any purpose other than evaluating or integrating with Stackorithm's services, including but not limited to:
+   - Reselling or relicensing the Documentation
+   - Using the specifications to compete with Licensor
+   - Offering "compatibility" services based on these specifications
+
+4. **Reverse Engineer** - Reverse engineer, decompile, or disassemble any aspect of the Documentation to infer Stackorithm's proprietary algorithms, methods, or detection strategies.
+
+5. **Remove Notices** - Remove or alter any copyright, trademark, proprietary, or confidentiality notices included in the Documentation.
+
+6. **Public Disclosure** - Disclose, publish, or share the Documentation or any specifications contained therein in public forums, repositories, or other publicly accessible venues.
+
+---
+
+## Ownership and Intellectual Property
+
+1. **Licensor Ownership** - The Documentation and all intellectual property rights therein (including but not limited to copyrights, trade secrets, and know-how) are and shall remain the exclusive property of Stackorithm LLC.
+
+2. **No Implied License** - No license, right, or interest in any trademark, service mark, or trade name of Licensor is granted under this Agreement.
+
+3. **Feedback** - Any feedback, suggestions, or improvements Licensee provides regarding the Documentation shall become the sole property of Licensor, and Licensee hereby assigns all rights thereto to Licensor.
+
+---
+
+## Confidentiality
+
+1. **Confidential Information** - Licensee acknowledges that the Documentation contains confidential and proprietary information of Licensor, including but not limited to data format specifications, field definitions, and behavioral detection methodologies.
+
+2. **Obligation of Confidentiality** - Licensee shall:
+   - Hold all Confidential Information in strict confidence
+   - Not disclose Confidential Information to any third party
+   - Use the same degree of care to protect Confidential Information as Licensee uses to protect its own confidential information (but in no event less than reasonable care)
+   - Only disclose Confidential Information to employees or contractors who have a need to know and are bound by similar confidentiality obligations
+
+3. **Exceptions** - Confidentiality obligations shall not apply to information that:
+   - Is or becomes public knowledge through no fault of Licensee
+   - Was already known to Licensee prior to disclosure without restriction
+   - Is independently developed by Licensee without use of the Documentation
+   - Is required to be disclosed by law or court order (provided Licensee gives Licensor prompt notice)
+
+---
+
+## Term and Termination
+
+1. **Term** - This Agreement is effective from the date Licensee first accesses the Documentation and continues until terminated.
+
+2. **Termination** - Licensor may terminate this Agreement at any time without notice. Licensee's rights under this Agreement shall terminate immediately upon:
+   - Receipt of termination notice from Licensor, or
+   - Any breach of this Agreement by Licensee
+
+3. **Effect of Termination** - Upon termination, Licensee shall:
+   - Immediately cease all use of the Documentation
+   - Delete or destroy all copies of the Documentation in its possession or control
+   - Certify in writing to Licensor that such deletion/destruction has occurred
+
+4. **Survival** - Sections titled "Restrictions," "Ownership and Intellectual Property," "Confidentiality," "Disclaimer of Warranty," and "Limitation of Liability" shall survive termination.
+
+---
+
+## DISCLAIMER OF WARRANTY
+
+THE DOCUMENTATION IS PROVIDED "AS IS" AND "AS AVAILABLE" WITHOUT WARRANTY OF ANY KIND, WHETHER EXPRESS, IMPLIED, STATUTORY, OR OTHERWISE. LICENSOR DISCLAIMS ALL WARRANTIES, INCLUDING BUT NOT LIMITED TO:
+
+- WARRANTIES OF MERCHANTABILITY
+- WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE
+- WARRANTIES OF NON-INFRINGEMENT
+- WARRANTIES ARISING FROM COURSE OF DEALING OR USAGE OF TRADE
+- WARRANTIES THAT THE DOCUMENTATION WILL MEET LICENSEE'S REQUIREMENTS
+- WARRANTIES THAT THE DOCUMENTATION WILL BE UNINTERRUPTED, TIMELY, SECURE, OR ERROR-FREE
+
+LICENSOR DOES NOT WARRANT THAT THE DOCUMENTATION IS ACCURATE, COMPLETE, OR UP-TO-DATE. TRADING DECISIONS MADE BASED ON THIS DOCUMENTATION ARE AT LICENSEE'S SOLE RISK.
+
+---
+
+## LIMITATION OF LIABILITY
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL LICENSOR BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, INCLUDING BUT NOT LIMITED TO:
+
+- LOST PROFITS, LOST REVENUE, OR LOST BUSINESS
+- LOSS OF DATA OR TRADING OPPORTUNITIES
+- DAMAGES FOR LOSS OF GOODWILL OR BUSINESS REPUTATION
+- DAMAGES RESULTING FROM LICENSEE'S RELIANCE ON THE DOCUMENTATION
+
+LICENSOR'S TOTAL LIABILITY SHALL NOT EXCEED THE AMOUNT, IF ANY, PAID BY LICENSEE TO ACCESS THE DOCUMENTATION. THIS LIMITATION APPLIES EVEN IF LICENSOR HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+---
+
+## Trading Risk Disclaimer
+
+The Documentation relates to financial trading and risk detection systems. Licensee acknowledges that:
+
+1. Trading financial instruments involves substantial risk of loss and is not suitable for every investor.
+2. Past performance or historical trading data does not guarantee future results.
+3. The behavioral detection methodologies described in the Documentation are for risk management purposes and do not guarantee profitable trading outcomes.
+4. Licensee is solely responsible for ensuring compliance with all applicable laws and regulations in its jurisdiction.
+
+---
+
+## General Provisions
+
+1. **Governing Law** - This Agreement shall be governed by and construed in accordance with the laws of the State of Delaware, United States, without regard to its conflict of laws principles.
+
+2. **Entire Agreement** - This Agreement constitutes the entire agreement between the parties regarding the subject matter hereof and supersedes all prior or contemporaneous agreements, understandings, or communications.
+
+3. **Severability** - If any provision of this Agreement is held to be invalid or unenforceable, the remaining provisions shall continue in full force and effect.
+
+4. **Waiver** - No failure or delay by Licensor in exercising any right under this Agreement shall constitute a waiver of such right.
+
+5. **No Agency** - Nothing in this Agreement shall be construed as creating a partnership, joint venture, or agency relationship between the parties.
+
+6. **Export Compliance** - Licensee agrees to comply with all applicable export control laws and regulations in its use of the Documentation.
+
+---
+
+## Contact Information
+
+For questions regarding this Agreement or to request permissions beyond the scope of this license, contact:
+
+**Stackorithm LLC**
+Email: info@stackorithm.co
+Website: https://stackorithm.co
+
+---
+
+**This Agreement was last updated: February 20, 2026**
+
+_This is a proprietary license agreement. The Documentation is protected by copyright and other intellectual property laws. Unauthorized use, distribution, or modification is strictly prohibited._

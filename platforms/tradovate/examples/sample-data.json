@@ -1,0 +1,111 @@
+{
+  "traders": [
+    {
+      "accountId": 12345,
+      "fills": [
+        {
+          "id": 1001,
+          "orderId": 5001,
+          "contractId": 2001,
+          "timestamp": "2024-08-24T14:15:22Z",
+          "tradeDate": {
+            "year": 2024,
+            "month": 8,
+            "day": 24
+          },
+          "action": "Buy",
+          "qty": 1,
+          "price": 5785.25,
+          "active": false
+        },
+        {
+          "id": 1002,
+          "orderId": 5002,
+          "contractId": 2001,
+          "timestamp": "2024-08-24T15:30:45Z",
+          "tradeDate": {
+            "year": 2024,
+            "month": 8,
+            "day": 24
+          },
+          "action": "Sell",
+          "qty": 1,
+          "price": 5790.50,
+          "active": false
+        }
+      ],
+      "orders": [
+        {
+          "id": 5001,
+          "accountId": 12345,
+          "contractId": 2001,
+          "timestamp": "2024-08-24T14:15:00Z",
+          "action": "Buy",
+          "ordStatus": "Filled"
+        },
+        {
+          "id": 5002,
+          "accountId": 12345,
+          "contractId": 2001,
+          "timestamp": "2024-08-24T15:30:30Z",
+          "action": "Sell",
+          "ordStatus": "Filled"
+        }
+      ],
+      "positions": [
+        {
+          "id": 3001,
+          "accountId": 12345,
+          "contractId": 2001,
+          "timestamp": "2024-08-24T14:15:22Z",
+          "tradeDate": {
+            "year": 2024,
+            "month": 8,
+            "day": 24
+          },
+          "netPos": 1,
+          "netPrice": 5785.25,
+          "bought": 1,
+          "boughtValue": 5785.25,
+          "sold": 0,
+          "soldValue": 0,
+          "prevPos": 0,
+          "prevPrice": 0
+        },
+        {
+          "id": 3002,
+          "accountId": 12345,
+          "contractId": 2001,
+          "timestamp": "2024-08-24T15:30:45Z",
+          "tradeDate": {
+            "year": 2024,
+            "month": 8,
+            "day": 24
+          },
+          "netPos": 0,
+          "netPrice": 0,
+          "bought": 1,
+          "boughtValue": 5785.25,
+          "sold": 1,
+          "soldValue": 5790.50,
+          "prevPos": 1,
+          "prevPrice": 5785.25
+        }
+      ],
+      "contracts": [
+        {
+          "id": 2001,
+          "name": "MESM4"
+        }
+      ],
+      "products": [
+        {
+          "id": 1001,
+          "name": "MES",
+          "valuePerPoint": 5.0,
+          "tickSize": 0.25
+        }
+      ]
+    }
+  ]
+}
