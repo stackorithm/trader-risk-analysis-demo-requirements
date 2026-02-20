@@ -17,7 +17,7 @@ This repository defines the data format specifications required for demonstratin
 
 ## Overview
 
-The demo data should contain a list of traders, where each trader includes their complete historical trading activity. This data is analyzed by models designed to detect prohibited trading behaviors described in our documentation [here](docs/prohibited-behaviors.md).
+The demo data should contain a list of traders, where each trader includes their complete historical trading activity.
 
 ## Current Supported Platforms
 
@@ -35,8 +35,6 @@ The demo data should contain a list of traders, where each trader includes their
 
 ```
 demo/
-├── docs/
-│ └── prohibited-behaviors.md # Behavior detection guide
 ├── platforms/
 │ ├── ctrader/
 │ │ ├── README.md
@@ -49,10 +47,10 @@ demo/
 │ │ └── examples/
 │ │ └──── sample-data.json
 │ └── tradovate/
-│ ├──── README.md
-│ ├──── data-requirements.md
-│ └──── examples/
-│ └────── sample-data.json
+│   ├── README.md
+│   ├── data-requirements.md
+│   └── examples/
+│   └──── sample-data.json
 └── README.md # This file
 ```
 
@@ -97,10 +95,6 @@ See the example files for reference:
 - [Tradovate Example](platforms/tradovate/examples/sample-data.json)
 
 ---
-
-## Additional Documentation
-
-- [Prohibited Trading Behaviors](docs/prohibited-behaviors.md) - Learn about copy trading, hedging, martingale, and other prohibited behaviors our models detect
 
 ## Contact
 
