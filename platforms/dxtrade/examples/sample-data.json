@@ -1,0 +1,338 @@
+{
+  "traders": [
+    {
+      "account": "default:12345",
+      "orders": [
+        {
+          "account": "default:12345",
+          "version": 9,
+          "orderId": 2754414,
+          "orderCode": "464159:19881",
+          "clientOrderId": "19881",
+          "actionCode": "464159:19881",
+          "legCount": 1,
+          "type": "MARKET",
+          "instrument": "XAUUSD",
+          "status": "COMPLETED",
+          "finalStatus": true,
+          "legs": [
+            {
+              "instrument": "XAUUSD",
+              "positionEffect": "OPEN",
+              "positionCode": "2754414",
+              "legRatio": 1.0,
+              "quantity": 1.0,
+              "filledQuantity": 1.0,
+              "remainingQuantity": 0.0,
+              "averagePrice": 5388.8
+            }
+          ],
+          "side": "BUY",
+          "tif": "GTC",
+          "issueTime": "2026-03-02T10:34:46.929Z",
+          "transactionTime": "2026-03-02T10:34:46.929Z",
+          "executions": [
+            {
+              "account": "default:12345",
+              "executionCode": "464151:182678",
+              "orderCode": "464159:19881",
+              "updateOrderId": 2754414,
+              "version": 9,
+              "clientOrderId": "19881",
+              "actionCode": "464159:19881",
+              "instrument": "XAUUSD",
+              "status": "COMPLETED",
+              "finalStatus": true,
+              "filledQuantity": 1.0,
+              "lastQuantity": 1.0,
+              "filledQuantityNotional": 1.0,
+              "lastQuantityNotional": 1.0,
+              "remainingQuantity": 0.0,
+              "lastPrice": 5388.8,
+              "averagePrice": 5388.8,
+              "transactionTime": "2026-03-02T10:34:46.929Z",
+              "executionContext": {
+                "clientBid": 5388.51,
+                "clientAsk": 5388.8,
+                "marketBid": 5388.51,
+                "marketAsk": 5388.8,
+                "executionStrategy": "B_BOOK_MIN_PROFIT",
+                "spreadType": "VARIABLE",
+                "spreadMarkup": {
+                  "unit": "PIPS",
+                  "value": 0.0
+                }
+              }
+            }
+          ],
+          "cashTransactions": [
+            {
+              "account": "default:12345",
+              "transactionCode": "464151:182678",
+              "orderCode": "464159:19881",
+              "tradeCode": "464151:182678",
+              "version": 9,
+              "clientOrderId": "19881",
+              "type": "COMMISSION",
+              "value": -0.05,
+              "currency": "USD$",
+              "transactionTime": "2026-03-02T10:34:46.929Z",
+              "createdTime": "2026-03-02T10:34:46.929Z",
+              "positionCode": "2754414"
+            }
+          ],
+          "audit": {
+            "ip": "1xx.xxx.xx5.xx",
+            "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36"
+          }
+        },
+        {
+          "account": "default:12345",
+          "version": 12,
+          "orderId": 2754420,
+          "orderCode": "464159:19882",
+          "clientOrderId": "19882",
+          "actionCode": "464159:19882",
+          "legCount": 1,
+          "type": "MARKET",
+          "instrument": "EURUSD",
+          "status": "COMPLETED",
+          "finalStatus": true,
+          "legs": [
+            {
+              "instrument": "EURUSD",
+              "positionEffect": "OPEN",
+              "positionCode": "2754420",
+              "legRatio": 1.0,
+              "quantity": 1000.0,
+              "filledQuantity": 1000.0,
+              "remainingQuantity": 0.0,
+              "averagePrice": 1.1745
+            }
+          ],
+          "side": "BUY",
+          "tif": "GTC",
+          "issueTime": "2026-03-02T10:35:50.768Z",
+          "transactionTime": "2026-03-02T10:35:50.768Z",
+          "executions": [
+            {
+              "account": "default:12345",
+              "executionCode": "464151:182684",
+              "orderCode": "464159:19882",
+              "updateOrderId": 2754420,
+              "version": 12,
+              "clientOrderId": "19882",
+              "actionCode": "464159:19882",
+              "instrument": "EURUSD",
+              "status": "COMPLETED",
+              "finalStatus": true,
+              "filledQuantity": 1000.0,
+              "lastQuantity": 1000.0,
+              "filledQuantityNotional": 1000.0,
+              "lastQuantityNotional": 1000.0,
+              "remainingQuantity": 0.0,
+              "lastPrice": 1.1745,
+              "averagePrice": 1.1745,
+              "transactionTime": "2026-03-02T10:35:50.768Z",
+              "executionContext": {
+                "clientBid": 1.17448,
+                "clientAsk": 1.1745,
+                "marketBid": 1.17448,
+                "marketAsk": 1.1745,
+                "executionStrategy": "B_BOOK_MIN_PROFIT",
+                "spreadType": "VARIABLE",
+                "spreadMarkup": {
+                  "unit": "PIPS",
+                  "value": 0.0
+                }
+              }
+            }
+          ],
+          "cashTransactions": [
+            {
+              "account": "default:12345",
+              "transactionCode": "464151:182684",
+              "orderCode": "464159:19882",
+              "tradeCode": "464151:182684",
+              "version": 12,
+              "clientOrderId": "19882",
+              "type": "COMMISSION",
+              "value": -0.03,
+              "currency": "USD$",
+              "transactionTime": "2026-03-02T10:35:50.768Z",
+              "createdTime": "2026-03-02T10:35:50.768Z",
+              "positionCode": "2754420"
+            }
+          ],
+          "audit": {
+            "ip": "1xx.xxx.xx5.x3",
+            "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36"
+          }
+        }
+      ],
+      "transfers": [
+        {
+          "account": "default:12345",
+          "version": 2,
+          "transferCode": "dxregapi.transfer.deposit:6531ce06-d1dc-4e9e-b7d2-7c37ff1478e5",
+          "comment": "initialize tr#19907 pr#4",
+          "transactionTime": "2025-06-28T05:57:48.114Z",
+          "createdTime": "2025-06-28T05:57:48.114Z",
+          "cashTransactions": [
+            {
+              "account": "default:12345",
+              "transactionCode": "dxregapi.transfer.deposit:6531ce06-d1dc-4e9e-b7d2-7c37ff1478e5",
+              "version": 2,
+              "clientOrderId": "6531ce06-d1dc-4e9e-b7d2-7c37ff1478e5",
+              "type": "DEPOSIT",
+              "value": 10000.0,
+              "currency": "USD$",
+              "transactionTime": "2025-06-28T05:57:48.114Z",
+              "createdTime": "2025-06-28T05:57:48.114Z"
+            }
+          ]
+        },
+        {
+          "account": "default:12345",
+          "version": 2,
+          "transferCode": "dxregapi.transfer.deposit:ae1bde3d-e17b-43fa-a163-3b2de345fc9a",
+          "comment": "initialize tr#20199 pr#4",
+          "transactionTime": "2025-07-03T07:03:34.855Z",
+          "createdTime": "2025-07-03T07:03:34.855Z",
+          "cashTransactions": [
+            {
+              "account": "default:12345",
+              "transactionCode": "dxregapi.transfer.deposit:ae1bde3d-e17b-43fa-a163-3b2de345fc9a",
+              "version": 2,
+              "clientOrderId": "ae1bde3d-e17b-43fa-a163-3b2de345fc9a",
+              "type": "DEPOSIT",
+              "value": 240000.0,
+              "currency": "USD$",
+              "transactionTime": "2025-07-03T07:03:34.855Z",
+              "createdTime": "2025-07-03T07:03:34.855Z"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "instruments_list": [
+    {
+      "instruments": [
+        {
+          "type": "FOREX",
+          "symbol": "EURUSD",
+          "version": 41,
+          "description": "Euro vs US Dollar",
+          "priceIncrement": 1e-5,
+          "pipSize": 0.0001,
+          "currency": "USD",
+          "lotSize": 100000.0,
+          "multiplier": 1.0,
+          "firstCurrency": "EUR",
+          "tradingHours": [
+            {
+              "weekDay": "Sunday, 21:05:00Z",
+              "eventType": "SESSION_OPEN"
+            },
+            {
+              "weekDay": "Monday, 20:55:00Z",
+              "eventType": "SESSION_CLOSE"
+            },
+            {
+              "weekDay": "Monday, 21:05:00Z",
+              "eventType": "SESSION_OPEN"
+            },
+            {
+              "weekDay": "Tuesday, 20:55:00Z",
+              "eventType": "SESSION_CLOSE"
+            },
+            {
+              "weekDay": "Tuesday, 21:05:00Z",
+              "eventType": "SESSION_OPEN"
+            },
+            {
+              "weekDay": "Wednesday, 20:55:00Z",
+              "eventType": "SESSION_CLOSE"
+            },
+            {
+              "weekDay": "Wednesday, 21:05:00Z",
+              "eventType": "SESSION_OPEN"
+            },
+            {
+              "weekDay": "Thursday, 20:55:00Z",
+              "eventType": "SESSION_CLOSE"
+            },
+            {
+              "weekDay": "Thursday, 21:05:00Z",
+              "eventType": "SESSION_OPEN"
+            },
+            {
+              "weekDay": "Friday, 20:55:00Z",
+              "eventType": "SESSION_CLOSE"
+            }
+          ],
+          "quantityIncrement": 0.01,
+          "instrumentTreePath": "/All Instruments/FOREX/Forex Majors/EURUSD",
+          "assetClass": "Forex Majors"
+        },
+        {
+          "type": "CFD",
+          "symbol": "XAUUSD",
+          "version": 49,
+          "description": "Gold",
+          "priceIncrement": 0.01,
+          "pipSize": 0.01,
+          "currency": "USD",
+          "lotSize": 100.0,
+          "multiplier": 1.0,
+          "tradingHours": [
+            {
+              "weekDay": "Sunday, 22:05:00Z",
+              "eventType": "SESSION_OPEN"
+            },
+            {
+              "weekDay": "Monday, 20:55:00Z",
+              "eventType": "SESSION_CLOSE"
+            },
+            {
+              "weekDay": "Monday, 22:05:00Z",
+              "eventType": "SESSION_OPEN"
+            },
+            {
+              "weekDay": "Tuesday, 20:55:00Z",
+              "eventType": "SESSION_CLOSE"
+            },
+            {
+              "weekDay": "Tuesday, 22:05:00Z",
+              "eventType": "SESSION_OPEN"
+            },
+            {
+              "weekDay": "Wednesday, 20:55:00Z",
+              "eventType": "SESSION_CLOSE"
+            },
+            {
+              "weekDay": "Wednesday, 22:05:00Z",
+              "eventType": "SESSION_OPEN"
+            },
+            {
+              "weekDay": "Thursday, 20:55:00Z",
+              "eventType": "SESSION_CLOSE"
+            },
+            {
+              "weekDay": "Thursday, 22:05:00Z",
+              "eventType": "SESSION_OPEN"
+            },
+            {
+              "weekDay": "Friday, 20:55:00Z",
+              "eventType": "SESSION_CLOSE"
+            }
+          ],
+          "quantityIncrement": 1.0,
+          "instrumentTreePath": "/All Instruments/CFD/Metals/XAUUSD",
+          "assetClass": "Metals"
+        }
+      ]
+    }
+  ]
+}

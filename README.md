@@ -26,6 +26,7 @@ The demo data should contain a list of traders, where each trader includes their
 | **MetaTrader 5** | [View Specification](platforms/metatrader5/data-requirements.md) | [sample-data.json](platforms/metatrader5/examples/sample-data.json) |
 | **cTrader**      | [View Specification](platforms/ctrader/data-requirements.md)     | [sample-data.json](platforms/ctrader/examples/sample-data.json)     |
 | **Tradovate**    | [View Specification](platforms/tradovate/data-requirements.md)   | [sample-data.json](platforms/tradovate/examples/sample-data.json)   |
+| **DXtrade**      | [View Specification](platforms/dxtrade/data-requirements.md)     | [sample-data.json](platforms/dxtrade/examples/sample-data.json)     |
 
 **📌 Don't see your platform?** If your trading platform isn't listed above or your data format differs from our specifications, don't worry, we're flexible and can adapt to your format. **Contact us with a raw sample of your data** and we'll work with you to integrate it. Our goal is to ensure low friction and easy data extraction from your side.
 
@@ -46,11 +47,16 @@ demo/
 │ │ ├── data-requirements.md
 │ │ └── examples/
 │ │ └──── sample-data.json
-│ └── tradovate/
-│   ├── README.md
-│   ├── data-requirements.md
-│   └── examples/
-│   └──── sample-data.json
+│ ├── tradovate/
+│ │ ├── README.md
+│ │ ├── data-requirements.md
+│ │ └── examples/
+│ │ └─── sample-data.json
+│ └── dxtrade/
+│ │ ├── README.md
+│ │ ├── data-requirements.md
+│ │ └── examples/
+│ └────── sample-data.json
 └── README.md # This file
 ```
 
@@ -93,6 +99,7 @@ See the example files for reference:
 - [MetaTrader 5 Example](platforms/metatrader5/examples/sample-data.json)
 - [cTrader Example](platforms/ctrader/examples/sample-data.json)
 - [Tradovate Example](platforms/tradovate/examples/sample-data.json)
+- [DXtrade Example](platforms/dxtrade/examples/sample-data.json)
 
 ---
 
@@ -110,5 +117,5 @@ For questions regarding this data format, to schedule a demonstration, or if you
 ## Version & Platform Information
 
 - **Document Version:** 1.0
-- **Last Updated:** February 2026
+- **Last Updated:** April 2026
 - **Copyright:** Stackorithm LLC All rights reserved.
